@@ -41,14 +41,13 @@ a {
   color: #47a3da;
 }
 
-.row-1 {
+li {
   width: 30%;
   border: 2px solid black;
   text-align: center;
   display: inline-block;
   list-style-type: none;
   margin: .5em;
-
 }
 
 img {
@@ -68,4 +67,19 @@ img {
   font-size: 24px;
   color: #bdbdbd;
   margin: 0 0 10px 0;
+}
+
+.itemaddtocart {
+  background-color: #47a3da;
+  color: #FFF;
+  margin-top: 1.75em;
+  padding: 10px 20px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.itemaddtocart:before {
+  font-family: 'FontAwesome';
+  content: "\f055";
+  padding-right: 5px;
 }
