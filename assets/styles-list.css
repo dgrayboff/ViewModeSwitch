@@ -1,0 +1,42 @@
+.main {
+  max-width: 100%;
+  top: 0 auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: #47a3da;
+}
+
+#content {
+  border: solid 3px #47a3da;
+  margin-left: 7em;
+  margin-right: 7em;
+  margin-top: 2.5em;
+}
+
+.togglebar {
+  border-bottom: solid 3px #47a3da;
+  padding: .5em 0  1.25em 0;
+  margin: 1.25em;
+  text-align: right;
+  letter-spacing: 6px;
+
+}
+
+.gridbutton:before {
+  font-family: 'FontAwesome';
+	content: "\f00a";
+  font-size: 2em;
+}
+
+.listbutton:before {
+  font-family: 'FontAwesome';
+  content: "\f00b";
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #47a3da;
+}
