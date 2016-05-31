@@ -92,12 +92,10 @@ a {
   vertical-align: middle;
   padding-left: 1em;
   padding-right: 1.25em;
-  border: solid 1px black;
 }
 
 .itemdesc {
   display: inline-block;
-  border: solid 1px black;
   width: 350px;
   vertical-align: middle;
 }
