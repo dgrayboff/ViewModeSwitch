@@ -13,12 +13,13 @@
   margin-left: 7em;
   margin-right: 7em;
   margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
 
 .togglebar {
   border-bottom: solid 3px #47a3da;
   padding: .5em 0  1.25em 0;
-  margin: 1.25em;
+  margin: 1.25em 1.25em 0 1.25em;
   text-align: right;
   letter-spacing: 6px;
 
@@ -28,15 +29,92 @@
   font-family: 'FontAwesome';
 	content: "\f00a";
   font-size: 2em;
+  color: #d0d0d0;
 }
 
 .listbutton:before {
   font-family: 'FontAwesome';
   content: "\f00b";
   font-size: 2em;
+  color: #d0d0d0;
+}
+
+.gridbutton:hover:before {
+  color: #47a3da;
+}
+
+.listbutton:hover:before {
+  color:#47a3da;
+}
+
+ul {
+  padding-left: 1.5em;
+  padding-top: 0;
+  margin-top: 0;
+  top: 0;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 1.5em 0 0 0;
+  vertical-align: middle;
 }
 
 a {
   text-decoration: none;
   color: #47a3da;
+  vertical-align: middle;
+}
+
+.itemimage2 img {
+  width: 100px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.itemtitle {
+  font-size: 21px;
+  display: inline-block;
+  margin: 0 1em 0 1em;
+  vertical-align: middle;
+  padding-right: 2em;
+}
+.itemprice {
+  font-size: 21px;
+  color: #bdbdbd;
+  display: inline-block;
+  margin: 1em;
+  vertical-align: middle;
+  padding-left: 1em;
+  padding-right: 1.25em;
+  border: solid 1px black;
+}
+
+.itemdesc {
+  display: inline-block;
+  border: solid 1px black;
+  width: 350px;
+  vertical-align: middle;
+}
+
+.itemaddtocart {
+  background-color: #47a3da;
+  color: #FFF;
+  margin: 1em 1em 1em 1em;
+  padding: 10px 20px;
+  border-radius: 2px;
+  display: table-cell inline-block;;
+  text-align: right;
+  vertical-align: middle;
+
+}
+.itemaddtocart:before {
+  font-family: 'FontAwesome';
+  content: "\f055";
+  padding-right: 5px;
 }
